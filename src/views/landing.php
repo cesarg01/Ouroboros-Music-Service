@@ -31,6 +31,7 @@ class LandingView extends View{
 
 		    <!-- Custom Fonts -->
 		    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+				<script src="https://use.fontawesome.com/671b3a52ec.js"></script>
 		    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 		    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
@@ -132,28 +133,28 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-														<i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+														<a href="index.php?method=all&name=RecordLabel"><i class="fa fa-4x fa-diamond text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=RecordLabel">RecordLabel( labelID : integer, name: string, address: string)</a>
 												</div>
 										</div>
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-														<i class="fa fa-4x fa-circle text-primary sr-icons"></i>
+														<a href="index.php?method=all&name=RAHas"><i class="fa fa-4x fa-snowflake-o text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=RAHas">RAHas( labelID : integer,  artistID : integer)</a>
 												</div>
 										</div>
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-														<i class="fa fa-4x fa-tree text-primary sr-icons"></i>
+														<a href="index.php?method=all&name=Artist"><i class="fa fa-4x fa-tree text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=Artist">Artist( artistID : integer, name: string)</a>
 												</div>
 										</div>
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-														<i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+														<a href="index.php?method=all&name=SoloArtist"><i class="fa fa-4x fa-heart text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=SoloArtist">SoloArtist( artistID : integer, birthdate: date)</a>
 												</div>
@@ -161,7 +162,7 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-													<i class="fa fa-4x fa-database text-primary sr-icons"></i>
+													<a href="index.php?method=all&name=GroupArtist"><i class="fa fa-4x fa-database text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=GroupArtist">GroupArtist( artistID : integer, formationDate: date)</a>
 												</div>
@@ -169,7 +170,7 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-													<i class="fa fa-4x fa-music text-primary sr-icons"></i>
+													<a href="index.php?method=all&name=AACreate"><i class="fa fa-4x fa-music text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=AACreate">AACreate(artistID: integer,  albumID : integer)</a>
 												</div>
@@ -177,7 +178,7 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-													<i class="fa fa-4x fa-flash text-primary sr-icons"></i>
+													<a href="index.php?method=all&name=Album"><i class="fa fa-4x fa-flash text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=Album">Album( albumID : integer, name: string, yearPublish: date)</a>
 												</div>
@@ -185,7 +186,7 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-													<i class="fa fa-4x fa-gamepad text-primary sr-icons"></i>
+													<a href="index.php?method=all&name=ATHas"<i class="fa fa-4x fa-gamepad text-primary sr-icons"></i><a>
 														<br>
 														<a href="index.php?method=all&name=ATHas">ATHas( albumID : integer,  releaseDate : date,  trackName : string)</a>
 												</div>
@@ -193,7 +194,7 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-													<i class="fa fa-4x fa-hand-peace-o text-primary sr-icons"></i>
+													<a href="index.php?method=all&name=Track"><i class="fa fa-4x fa-hand-peace-o text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=Track">Track( releaseDate : date,  trackName : string, length: integer, genre: string)</a>
 												</div>
@@ -201,7 +202,7 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-													<i class="fa fa-4x fa-mobile text-primary sr-icons"></i>
+													<a href="index.php?method=all&name=PTHas"><i class="fa fa-4x fa-mobile text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=PTHas">PTHas( listID : integer,  releaseDate :date,  trackName :string)</a>
 												</div>
@@ -209,7 +210,7 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-													<i class="fa fa-4x fa-rocket text-primary sr-icons"></i>
+													<a href="index.php?method=all&name=Playlist"><i class="fa fa-4x fa-rocket text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=Playlist">Playlist( listID : integer, listName: string)</a>
 												</div>
@@ -217,7 +218,7 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-													<i class="fa fa-4x fa-smile-o text-primary sr-icons"></i>
+													<a href="index.php?method=all&name=Users"><i class="fa fa-4x fa-smile-o text-primary sr-icons"></i></a>
 														<br>
 														<a href="index.php?method=all&name=Users">Users( userID : integer, name: string, gender: string, photo: BLOB)</a>
 												</div>
@@ -225,7 +226,7 @@ class LandingView extends View{
 
 										<div class="col-lg-3 col-md-6 text-center">
 												<div class="service-box">
-													<i class="fa fa-gear fa-spin fa-3x fa-fw"></i>
+													<a href="index.php?method=all&name=Listen"><i class="fa fa-gear fa-spin fa-3x fa-fw"></i></a>
 														<br>
 														<a href="index.php?method=all&name=Listen">Listen( userID : integer,  listID : integer)</a>
 												</div>
@@ -311,9 +312,9 @@ class LandingView extends View{
 			                     <h2 class="section-heading">About Us</h2>
 			                     <hr class="primary">
 			                     <p>We decided to implement this application for our Fall 2016 CS157A class at SJSU due to our love for music. If you have any questions give us a call or send us an email and we will get back to you as soon as possible!</p>
-													 <p>We would like to thank our professor Charles Bocage for doing a great job teaching us about databases <i class="fa fa-database" aria-hidden="true"></i> ! We hope you have a AMAZING Winter break!!</p>
+													 <p>We would like to thank our professor Charles Bocage for doing a great job teaching us about databases <i class="fa fa-database" aria-hidden="true"></i> ! We hope you have an AMAZING Winter break professor!!</p>
 													 <i class="fa fa-beer" aria-hidden="true"></i> <i class="fa fa-tree" aria-hidden="true"></i> <i class="fa fa-snowflake-o" aria-hidden="true"></i>
-													 
+
 											 </div>
 			                 <div class="col-lg-4 col-lg-offset-2 text-center">
 			                     <i class="fa fa-phone fa-3x sr-contact"></i>
