@@ -92,7 +92,7 @@ class LandingView extends View{
 		                <h1 id="homeHeading">Ouroboros</h1>
 		                <hr>
 		                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-		                <a href="#member" class="btn btn-primary btn-xl page-scroll">Members</a>
+		                <a href="#members" class="btn btn-primary btn-xl page-scroll">Members</a>
 		            </div>
 		        </div>
 		    </header>
