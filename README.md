@@ -1,3 +1,6 @@
+This is a project created for an Intro to Database class using the Creative templete from (http://startbootstrap.com/)
+
+# Page Templete Info:
 # [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
 
 [Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
