@@ -308,17 +308,24 @@ class LandingView extends View{
 			         <div class="container">
 			             <div class="row">
 			                 <div class="col-lg-8 col-lg-offset-2 text-center">
-			                     <h2 class="section-heading">Let's Get In Touch!</h2>
+			                     <h2 class="section-heading">About Us</h2>
 			                     <hr class="primary">
-			                     <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-			                 </div>
+			                     <p>We decided to implement this application for our Fall 2016 CS157A class at SJSU due to our love for music. If you have any questions give us a call or send us an email and we will get back to you as soon as possible!</p>
+													 <p>We would like to thank our professor Charles Bocage for doing a great job teaching us about databases <i class="fa fa-database" aria-hidden="true"></i> ! We hope you have a AMAZING Winter break!!</p>
+													 <i class="fa fa-beer" aria-hidden="true"></i> <i class="fa fa-tree" aria-hidden="true"></i> <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+													 
+											 </div>
 			                 <div class="col-lg-4 col-lg-offset-2 text-center">
 			                     <i class="fa fa-phone fa-3x sr-contact"></i>
 			                     <p>123-456-6789</p>
 			                 </div>
 			                 <div class="col-lg-4 text-center">
 			                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-			                     <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+			                     <p><a href="mailto:your-email@your-domain.com">gbrothers93@gmail.com</a></p>
+													 <p><a href="mailto:your-email@your-domain.com">nanthana.thanonklin@sjsu.edu</a></p>
+													 <p><a href="mailto:your-email@your-domain.com">paul.vu@sjsu.edu </a></p>
+													 <p><a href="mailto:your-email@your-domain.com">785258623@qq.com</a></p>
+													 <p><a href="mailto:your-email@your-domain.com">chen41384406@gmail.com</a></p>
 			                 </div>
 			             </div>
 			         </div>
