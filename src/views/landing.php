@@ -311,7 +311,7 @@ class LandingView extends View{
 			                 <div class="col-lg-8 col-lg-offset-2 text-center">
 			                     <h2 class="section-heading">About Us</h2>
 			                     <hr class="primary">
-			                     <p>We decided to implement this application for our Fall 2016 CS157A class at SJSU due to our love for music. If you have any questions give us a call or send us an email and we will get back to you as soon as possible!</p>
+			                     <p>We decided to implement this application for our Fall 2016 CS157A class at SJSU due to our love for music. If you have any questions, give us a call or send us an email and we will get back to you as soon as possible!</p>
 													 <p>We would like to thank our professor Charles Bocage for doing a great job teaching us about databases <i class="fa fa-database" aria-hidden="true"></i> ! We hope you have an AMAZING Winter break professor!!</p>
 													 <i class="fa fa-beer" aria-hidden="true"></i> <i class="fa fa-tree" aria-hidden="true"></i> <i class="fa fa-snowflake-o" aria-hidden="true"></i>
 
